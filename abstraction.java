@@ -18,11 +18,23 @@ public class abstraction {
         }
     }
 
+    interface l1{
+        void show();
+    }
+    class t implements l1{
+        //mehtod overriding
+        public void show(){
+            System.out.println(1);
+        }
+    }
+
     //car is a concept so making object of car will not make sense
     //we use abstract keyword it does not allow to make object of this class
 
 
     //abstract is just used to make concept
+    //we cant make object of abstract class
+
     abstract class car{
         String brand;
         String name;

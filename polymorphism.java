@@ -20,7 +20,12 @@ public class polymorphism {
     class xyz extends Test{
         //this is called method overriding
         //this is also called runtime polymorphism
-        //the function has the same number of arguments
+        //the function has the same number,type,order of arguments
+        //final method cannot be override
+        //static method cannot be override
+        //private method cannot be override
+        
+
         void show(String a,String b){
             System.out.println("bye");
         }

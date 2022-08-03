@@ -12,6 +12,19 @@ public class polymorphism {
             System.out.println(steps);
         }
     }
+    class Test{
+        void show(String a,String b){
+            System.out.println("Hello");
+        }
+    }
+    class xyz extends Test{
+        //this is called method overriding
+        //this is also called runtime polymorphism
+        //the function has the same number of arguments
+        void show(String a,String b){
+            System.out.println("bye");
+        }
+    }
     public static void main(String[] args){
 
     }
